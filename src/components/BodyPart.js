@@ -13,8 +13,8 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
      sx={{  
        borderTop:  bodyPart === item ? '4px solid #ff2625' : '',
        backgroundColor:'#fff',
-       borderBottomLeftRadius: '20px', width: '270px',
-       height: '288px',cursor: 'pointer', gap: '47px'
+       borderBottomLeftRadius: '20px', width: '170px',
+       height: '170px',cursor: 'pointer', gap: '35px'
     
      }}
      onClick={() => {
@@ -23,7 +23,7 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
      }}
     >
      <img  src={icon} alt="dumbbell" style={{ width: '40px', height:'40px'}} />
-     <Typography fontSize="24px" fontWeight="bold"
+     <Typography fontSize="20px" fontWeight="bold"
       color="#3a1212" textTransform="capitalize"
      >{item}</Typography>
     </Stack>
